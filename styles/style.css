@@ -27,7 +27,6 @@ align-items: center;
   top:30px;
   left: 64px;
   background-image: url(../images/logo_place_header.svg);
-  position: absolute;
   z-index: 2;
   }
 .header_title{
@@ -61,7 +60,7 @@ line-height: 96px;
   bottom: 0;
   background-size: cover;
 background-image:url(../images/header-image.png);
-z-index: 1
+z-index: 1;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header_square-pic{
@@ -173,14 +172,14 @@ z-index: 1
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
-  z-index: 1
+  z-index: 1;
 }
 .feyman_subtitle{
   top:60px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  z-index: 1
+  z-index: 1;
 }
 .feynman_link{
   line-height: 51px;
@@ -271,7 +270,6 @@ z-index: 1
   flex-basis: 711px;
   justify-content: space-between;
   flex-direction: column;
-  flex-basis: 711px;
 }
 .logo_place_footer{
   width: 228px;
