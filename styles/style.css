@@ -248,6 +248,8 @@ padding: 0;
   color: white;
 }
 .table__text_theme_dark {
+  margin: 0px;
+  padding: 0px;
   color: white;
 }
 .kaufman__triangle {
