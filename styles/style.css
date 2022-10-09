@@ -111,6 +111,10 @@
   font-weight: normal;
   line-height: 34px;
 }
+.two-columns__paragraph:last-child {
+margin: 0;
+padding: 0;
+}
 .two-columns__span-accent {
   font-weight: 600;
   font-size: 24px;
@@ -166,7 +170,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .feynman {
   margin: 0;
@@ -238,8 +242,10 @@
 }
 .table_theme_dark {
   z-index: 1;
+  margin-bottom: 90px;
 }
 .table__cell_theme_dark {
+  margin-top: 80px;
   width: 200px;
 }
 .table__heading_theme_dark {
@@ -309,11 +315,12 @@
 .footer__column-link {
   text-decoration: none;
   color: #f2f2f2;
-  line-height: 40px;
+  line-height: 30px;
   font-size: 18px;
   font-weight: normal;
 }
 .footer__social-icon {
+  margin-right: 10px;
   width: 16px;
   height: 16px;
 }
