@@ -164,6 +164,7 @@ padding: 0;
 .table__text {
   padding: 0;
   margin-top: 20px;
+  margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -248,8 +249,6 @@ padding: 0;
   color: white;
 }
 .table__text_theme_dark {
-  margin: 0;
-  padding: 0;
   color: white;
 }
 .kaufman__triangle {
